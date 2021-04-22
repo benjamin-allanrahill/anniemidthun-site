@@ -12,6 +12,7 @@ const Layout = ({ children, title = "This is the default title" }: Props) => (
       <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      <meta name="og:image" content="/social.png" />
       <link
         rel="shortcut icon"
         href="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/144/apple/271/woman_medium-light-skin-tone_1f469-1f3fc_1f3fc.png"
